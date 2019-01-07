@@ -11,7 +11,7 @@ class TicTacToe
   [6,4,2]
   ]
   def initialize
-    @board = [' '] * 5
+    @board = [' '] * 9
   end
   
   def display_board
