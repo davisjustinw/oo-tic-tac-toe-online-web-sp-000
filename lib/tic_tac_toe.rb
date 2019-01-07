@@ -28,7 +28,7 @@ class TicTacToe
   def move(index, token)
     @board[index] = token
   end
-
+=begin
   def position_taken?(index)
     @board[index] == ' ' || @board[index] == '' || @board[index] == nil ? false : true
   end
@@ -94,4 +94,5 @@ class TicTacToe
       puts "Congratulations #{winner}!"
     end
   end
+  =end
 end
