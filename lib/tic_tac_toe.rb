@@ -68,7 +68,7 @@ class TicTacToe
       turn
     end
   end
-=begin
+
   def full?
     @board.all? { |square| !(square.nil? || square == " ")}
   end
@@ -95,5 +95,5 @@ class TicTacToe
       puts "Congratulations #{winner}!"
     end
   end
-=end
+
 end
