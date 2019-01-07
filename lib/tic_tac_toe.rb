@@ -55,7 +55,7 @@ class TicTacToe
       combo.all? {|item| @board[item] == @board[combo.first]} && (@board[combo.first] == 'X' || @board[combo.first] == 'O')
     end
   end
-
+=begin
   def turn
     puts "Please enter 1-9:"
     input = gets.strip
@@ -72,7 +72,7 @@ class TicTacToe
   def full?
     @board.all? { |square| !(square.nil? || square == " ")}
   end
-=begin
+
   def draw?
     !won? && full?
   end
