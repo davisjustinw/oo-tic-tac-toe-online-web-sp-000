@@ -27,7 +27,6 @@ class TicTacToe
   end
 
   def move(index, token)
-    binding.pry
     @board[index] = token
   end
 =begin
