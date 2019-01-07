@@ -45,7 +45,7 @@ class TicTacToe
     end
     count
   end
-=begin
+
   def current_player
     turn_count % 2 == 0 ? 'X' : 'O'
   end
@@ -72,7 +72,7 @@ class TicTacToe
   def full?
     @board.all? { |square| !(square.nil? || square == " ")}
   end
-
+=begin
   def draw?
     !won? && full?
   end
